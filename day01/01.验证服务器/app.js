@@ -1,4 +1,4 @@
-5
+
 /**
  * Created by Administrator on 2018/11/16.
  */
@@ -23,9 +23,9 @@ const app = express();
 
  */
 const config = {
-    appID: '',
-    appsecret: '',
-    token: ''
+    appID: 'wx1fbc28695f8654be',
+    appsecret: '67c5ccade91f412e6b119bd391eeccb4',
+    token: 'wechat0810'
 };
 
 app.use((req, res, next) => {
